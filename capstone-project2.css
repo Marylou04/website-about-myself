@@ -1,0 +1,155 @@
+body {
+    color: rgb(75, 73, 73);
+    font-family: 'Rajdhani', sans-serif;
+    text-align: justify;
+    margin: 0;
+}
+
+h1 {
+    color: #7a1e6d ;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-family: 'Noto Serif Display', serif;
+    color: #7a1e6d;
+    padding-bottom: 10px;
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    color:#7a1e6d;
+    font-weight: lighter;
+}
+
+p {
+    line-height: 1;
+}
+
+a{
+    text-decoration: none;
+    color: #59104f;
+    margin: 10px;
+    font-weight: bolder;
+}
+
+a:hover {
+    color: #f6c1f7;
+}
+
+hr{
+    border: dashed 3px #f6c1f7;
+    width: 4rem;
+    margin: 100px auto;
+}
+
+.title-top {
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    padding: 5px;
+}
+
+.subtitle {
+    margin-bottom: 100px;
+}
+
+.electrical {
+    text-decoration: underline;
+}
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 3px solid #7a1e6d;
+    width: 30%; 
+}
+
+.container-1 {
+    background-color: #f6c1f7;
+    padding-top: 100px;
+}
+
+.container-2 {
+    text-align: center;
+    margin: 80px 0;
+}
+
+.container-3 {
+    background-color: #d259d4;
+    padding: 40px 100px;
+    text-align: center;
+}
+
+.profile-img {
+    height: 200px;
+    display: block;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.introduction {
+    width: 40%;
+    margin: auto;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    text-align: left;
+    margin: 80px auto 0 auto;
+    column-gap: 10px;
+    row-gap: 30px;
+    background-color: #feeffe;
+    padding: 50px;
+}
+
+.clarinet {
+    justify-content: center;
+    width: 100%;
+}
+
+.learning {
+    justify-self: center;
+}
+
+.lightbulb {
+    width: 100%;
+}
+
+.contact-msg {
+    width: 35%;
+    margin: 10px auto 50px auto;
+}
+
+.btn {
+    background-color: #7a1e6d ;
+    border-radius: 10px;
+    color: #feeffe;
+    padding: 14px 30px;
+    text-align: center;
+    text-decoration: dotted;
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Noto Serif Display', serif;
+    transition-duration: 0.2s;
+}
+
+.btn:hover {
+    background-color: #feeffe;
+    color: #7a1e6d;
+    border: 1px solid #7a1e6d;
+}
+
+.copyright {
+    margin-top: 30px; 
+    color: #feeffe;
+}
